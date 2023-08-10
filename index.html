@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="/cutom.css">
+  <link rel="js" href="/js.js">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav onclick="abc()">
+      <a id ="header"  href="">Home</a>
+     
+      <a  id ="header"href="#">About</a>
+      <a  id ="header" href="#">Signup</a>
+      <a  id ="header" href="#">Login</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="welcome">
+      <h1>Welcome to Your Website</h1>
+      <p>Your captivating tagline goes here.</p>
+    </div>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form>
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password">
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="js.js">
+
+</script>
+</html>

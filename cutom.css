@@ -1,0 +1,50 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+  }
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  .welcome {
+    text-align: center;
+    /* padding-top: 150px; */
+    color: rgb(0, 0, 0);
+  }
+  .login-container {
+    background-color: rgba(252, 200, 200, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #3498db;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
